@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const Employee = require('../models/Employee');
-const { body, validationResult } = require('express-validator'); ta
+const { body, validationResult } = require('express-validator'); 
 
 
 
