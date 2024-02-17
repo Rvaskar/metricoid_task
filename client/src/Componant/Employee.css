@@ -1,0 +1,40 @@
+.container1{
+    border: 1px solid black;
+    width: 70%;
+    
+}
+.header{
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header button{
+    width: 8rem;
+    border: none;
+    color: white;
+    background-color: #5bc0de;
+    border-radius: 1.5rem;
+    min-height: 10px;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 1.5rem;
+    -ms-border-radius: 1.5rem;
+    -o-border-radius: 1.5rem;
+}
+.fa-trash{
+    color: #ff0000;
+    cursor: pointer;
+}
+.fa-pencil{
+    cursor: pointer;
+    color: #FFD43B;
+}
+.main-cont{
+    margin-top: 2rem;
+}
+.main-cont button{
+    background-color: transparent;
+    outline:none;
+    border: none;
+    width: 1rem;
+}
